@@ -1,6 +1,6 @@
 name: flutter_marketplace_patitas_app
-description: "A new Flutter project."
-publish_to: 'none'
+description: "proyecto de la maestria FULL STACK UCB"
+publish_to: 'Edwin Gustavo Enriquez Arias'
 version: 0.1.0
 
 environment:
@@ -9,6 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.3.2
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.14
+  path: ^1.8.3
+  shared_preferences: ^2.1.1
+  image_picker: ^0.8.7+4
+  crypto: ^3.0.3
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +24,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
